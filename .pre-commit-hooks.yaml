@@ -1,0 +1,6 @@
+-   id: detect-no-commit-comments
+    name: detect no commit comments
+    description: Prevents committing changes including patterns like <<NOCOMMIT>>
+    entry: detect-no-commit-comments
+    language: python
+    types: [text]
