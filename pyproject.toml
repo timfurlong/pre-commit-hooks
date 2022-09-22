@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pre-commit-hooks"
+version = "0.1.0"
+description = "Tims pre-commit-hooks"
+authors = ["cloud303-tfurlong <tfurlong@cloud303.io>"]
+readme = "README.md"
+packages = [{include = "pre_commit_hooks"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
