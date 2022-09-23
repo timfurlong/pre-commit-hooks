@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "pre_commit_hooks"}]
 
 [tool.poetry.scripts]
-detect_no_commit_comments = "pre_commit_hooks.detect_no_commit_comments:main"
+detect-no-commit-comments = "pre_commit_hooks.detect_no_commit_comments:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
