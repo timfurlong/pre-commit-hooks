@@ -6,9 +6,11 @@ authors = ["cloud303-tfurlong <tfurlong@cloud303.io>"]
 readme = "README.md"
 packages = [{include = "pre_commit_hooks"}]
 
+[tool.poetry.scripts]
+detect_no_commit_comments = "pre_commit_hooks.detect_no_commit_comments:main"
+
 [tool.poetry.dependencies]
 python = "^3.10"
-
 
 [build-system]
 requires = ["poetry-core"]
